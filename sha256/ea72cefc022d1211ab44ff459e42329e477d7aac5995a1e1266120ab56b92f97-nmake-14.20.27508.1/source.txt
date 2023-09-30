@@ -1,0 +1,4 @@
+microsoft-visualstudio-2019-16.0.28729.10-torrent vs2019bldtools/Microsoft.VisualCpp.Tools.HostX86.TargetX86,version=14.20.27508/payload.vsix
+microsoft-visualstudio-2019-16.0.28729.10-torrent vs2019comm/Microsoft.VisualCpp.Tools.HostX86.TargetX86,version=14.20.27508/payload.vsix
+microsoft-visualstudio-2019-16.0.28729.10-torrent vs2019ent/Microsoft.VisualCpp.Tools.HostX86.TargetX86,version=14.20.27508/payload.vsix
+microsoft-visualstudio-2019-16.0.28729.10-torrent vs2019pro/Microsoft.VisualCpp.Tools.HostX86.TargetX86,version=14.20.27508/payload.vsix
