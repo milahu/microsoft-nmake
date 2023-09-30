@@ -1,1 +1,4 @@
 microsoft-visualstudio-2019-16.3.29318.209-torrent Microsoft.Azure.DataLake.Tools.SDK.Compiler,version=10.0.10240.3,chip=neutral/Microsoft.Azure.DataLake.Tools.SDK.Compiler.zip
+microsoft-visualstudio-2019-16.0.28729.10-torrent vs2019comm/Microsoft.Azure.DataLake.Tools.SDK.Compiler,version=10.0.10240.3,chip=neutral/Microsoft.Azure.DataLake.Tools.SDK.Compiler.zip
+microsoft-visualstudio-2019-16.0.28729.10-torrent vs2019ent/Microsoft.Azure.DataLake.Tools.SDK.Compiler,version=10.0.10240.3,chip=neutral/Microsoft.Azure.DataLake.Tools.SDK.Compiler.zip
+microsoft-visualstudio-2019-16.0.28729.10-torrent vs2019pro/Microsoft.Azure.DataLake.Tools.SDK.Compiler,version=10.0.10240.3,chip=neutral/Microsoft.Azure.DataLake.Tools.SDK.Compiler.zip
