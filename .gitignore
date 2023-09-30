@@ -1,0 +1,9 @@
+*.gpr
+*.c.json
+*.rep/
+*.i64
+*.c.backend.bc
+*.c.backend.ll
+*.c.frontend.dsm
+*.lock
+*.lock~
