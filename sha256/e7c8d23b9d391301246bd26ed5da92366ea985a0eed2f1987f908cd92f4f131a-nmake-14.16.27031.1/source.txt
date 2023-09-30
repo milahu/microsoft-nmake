@@ -1,0 +1,1 @@
+microsoft-visualstudio-2019-16.3.29318.209-torrent Microsoft.VisualC.14.16.Tools.HostX86.TargetX86,version=14.16.27031/payload.vsix
