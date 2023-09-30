@@ -20,6 +20,7 @@ done | sort -V -r | while read v d; do echo "- [nmake $v]($d)"; done
 -->
 
 - [nmake 14.23.28105.4](sha256/23563b29f3b0e8b7a925a655b810f81e0e67d65a2bff197b1ad6c8021b0b8eea-nmake-14.23.28105.4)
+- [nmake 14.22.27905.0](sha256/afe7d921f7abec014217646bf2031b6b1b1cdc58ae6cb56e46eb6cc663443a1f-nmake-14.22.27905.0)
 
 ## nmake sources
 
