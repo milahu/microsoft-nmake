@@ -24,6 +24,7 @@ done | sort -V -r | while read v d; do echo "- [nmake $v]($d)"; done
 - [nmake 14.23.28105.4](sha256/23563b29f3b0e8b7a925a655b810f81e0e67d65a2bff197b1ad6c8021b0b8eea-nmake-14.23.28105.4)
 - [nmake 14.22.27905.0](sha256/afe7d921f7abec014217646bf2031b6b1b1cdc58ae6cb56e46eb6cc663443a1f-nmake-14.22.27905.0)
 - [nmake 14.21.27702.2](sha256/c43ac12a2500c9491c6d74b9a892d6e4802a9d191a45903cfb57e240203f0e95-nmake-14.21.27702.2)
+- [nmake 14.20.27508.1](sha256/ea72cefc022d1211ab44ff459e42329e477d7aac5995a1e1266120ab56b92f97-nmake-14.20.27508.1)
 - [nmake 14.20.27508.1](sha256/1f6257610c17232f4215362d1502eb8bce75e1c3a37b1d6a0313983094a71925-nmake-14.20.27508.1)
 - [nmake 14.20.27508.1](sha256/ea72cefc022d1211ab44ff459e42329e477d7aac5995a1e1266120ab56b92f97-nmake-14.20.27508.1)
 - [nmake 14.16.27031.1](sha256/e7c8d23b9d391301246bd26ed5da92366ea985a0eed2f1987f908cd92f4f131a-nmake-14.16.27031.1)
@@ -33,6 +34,7 @@ done | sort -V -r | while read v d; do echo "- [nmake $v]($d)"; done
 ## nmake sources
 
 - [microsoft-visualstudio-2019-16.3.29318.209-torrent](sources/microsoft-visualstudio-2019-16.3.29318.209-torrent)
+- [microsoft-visualstudio-2019-16.0.28729.10-torrent](sources/microsoft-visualstudio-2019-16.0.28729.10-torrent)
 - http://web.archive.org/web/20120402130733/http://download.microsoft.com/download/vc15/patch/1.52/w95/en-us/nmake15.exe
 
 ## related
