@@ -1,0 +1,14 @@
+/home/decompiler_user/dewolf/decompiler/frontend/binaryninja/frontend.py:46: DeprecatedWarning: get_view_of_file_with_options is deprecated as of 3.5.4378. Use `binaryninja.load` instead
+  return cls(BinaryViewType.get_view_of_file_with_options(path, options=file_options))
+/home/decompiler_user/binaryninja/python/binaryninja/binaryview.py:1183: DeprecatedWarning: load is deprecated as of 3.5.4378. Use `binaryninja.load` instead
+  return BinaryViewType.load(filename, update_analysis, progress_func, options)
+Traceback (most recent call last):
+  File "/home/decompiler_user/dewolf/decompile.py", line 80, in <module>
+    main(Decompiler)
+  File "/home/decompiler_user/dewolf/decompiler/util/commandline.py", line 59, in main
+    undecorated_code = decompiler.decompile_all(options)
+  File "/home/decompiler_user/dewolf/decompile.py", line 67, in decompile_all
+    functions = self._frontend.get_all_function_names()
+  File "/home/decompiler_user/dewolf/decompiler/frontend/binaryninja/frontend.py", line 71, in get_all_function_names
+    for function in self._bv.functions:
+AttributeError: 'NoneType' object has no attribute 'functions'

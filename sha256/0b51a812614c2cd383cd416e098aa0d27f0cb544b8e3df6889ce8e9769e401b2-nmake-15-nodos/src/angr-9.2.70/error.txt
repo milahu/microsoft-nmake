@@ -1,0 +1,235 @@
+WARNING  | 2023-09-30 19:53:21,218 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:23,070 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:23,112 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:24,018 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:24,671 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:24,708 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:24,729 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:24,775 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:24,889 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:24,933 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:24,975 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:25,070 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:25,264 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:25,391 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:25,459 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_404180 (0x404180)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:25,459 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_404180 (0x404180)>.
+WARNING  | 2023-09-30 19:53:26,032 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_405930 (0x405930)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:26,032 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_405930 (0x405930)>.
+WARNING  | 2023-09-30 19:53:26,117 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:26,125 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:26,134 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:26,148 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:26,194 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:26,207 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:26,218 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:28,896 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_4043a0 (0x4043a0)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:28,896 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_4043a0 (0x4043a0)>.
+WARNING  | 2023-09-30 19:53:29,180 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_40bb00 (0x40bb00)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:29,181 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_40bb00 (0x40bb00)>.
+WARNING  | 2023-09-30 19:53:31,314 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:31,339 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:31,346 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:31,958 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_403af0 (0x403af0)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:31,958 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_403af0 (0x403af0)>.
+WARNING  | 2023-09-30 19:53:33,344 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_409790 (0x409790)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:33,344 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_409790 (0x409790)>.
+WARNING  | 2023-09-30 19:53:35,518 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:36,163 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:36,496 | angr.analyses.variable_recovery.engine_base | Reading memory with overlapping variables: [(0, <0x40bb90[is_18]|Stack bp+0x20, 4 B>), (0, <0x40bb90[is_60]|Stack bp+0x20, 1 B>)]. Ignoring all but the first one.
+WARNING  | 2023-09-30 19:53:36,844 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_40bb90 (0x40bb90)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:36,844 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_40bb90 (0x40bb90)>.
+WARNING  | 2023-09-30 19:53:42,440 | angr.analyses.variable_recovery.engine_base | Reading memory with overlapping variables: [(0, <None[is_59]|Stack sp+0x10, 1 B>), (0, <0x40b110[is_54]|Stack bp+0x10, 1 B>), (-1, <None[is_157]|Stack sp+0x11, 1 B>)]. Ignoring all but the first one.
+WARNING  | 2023-09-30 19:53:43,575 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_40b110 (0x40b110)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:43,575 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_40b110 (0x40b110)>.
+WARNING  | 2023-09-30 19:53:43,862 | angr.analyses.variable_recovery.engine_base | Reading memory with overlapping variables: [(0, <0x4086d0[is_51]|Stack bp+0x10, 1 B>), (0, <0x4086d0[is_8]|Stack bp+0x10, 1 B>), (0, <0x4086d0[is_11]|Stack bp+0x10, 1 B>), (0, <0x4086d0[is_10]|Stack bp+0x10, 1 B>)]. Ignoring all but the first one.
+WARNING  | 2023-09-30 19:53:44,675 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:44,715 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:45,472 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:45,874 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:48,089 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_4069d0 (0x4069d0)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:48,090 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_4069d0 (0x4069d0)>.
+WARNING  | 2023-09-30 19:53:48,307 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_406880 (0x406880)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:48,307 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_406880 (0x406880)>.
+WARNING  | 2023-09-30 19:53:48,503 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:48,885 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:48,969 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:49,355 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_405530 (0x405530)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:49,355 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_405530 (0x405530)>.
+WARNING  | 2023-09-30 19:53:51,270 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,279 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,345 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,361 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,375 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,391 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,542 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,553 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,585 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,620 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,656 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,678 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,681 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,689 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,694 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,704 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,712 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,748 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:51,754 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:52,154 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:52,173 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:52,205 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:52,222 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:52,253 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:52,271 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:52,993 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_40c510 (0x40c510)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:52,994 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_40c510 (0x40c510)>.
+WARNING  | 2023-09-30 19:53:55,697 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:53:57,924 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_40aec0 (0x40aec0)> that fits the given arguments.
+WARNING  | 2023-09-30 19:53:57,924 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_40aec0 (0x40aec0)>.
+WARNING  | 2023-09-30 19:53:58,340 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:00,153 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_407070 (0x407070)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:00,153 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_407070 (0x407070)>.
+WARNING  | 2023-09-30 19:54:01,230 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:01,270 | angr.analyses.variable_recovery.engine_base | Reading memory with overlapping variables: [(0, <None[is_12]|Stack sp-0x10, 4 B>), (0, <0x40c980[is_4]|Stack bp-0x10, 4 B>)]. Ignoring all but the first one.
+WARNING  | 2023-09-30 19:54:01,714 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:01,717 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:02,073 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:02,077 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:02,331 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_4048b0 (0x4048b0)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:02,331 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_4048b0 (0x4048b0)>.
+WARNING  | 2023-09-30 19:54:02,934 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:02,941 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:02,985 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:03,452 | angr.analyses.variable_recovery.engine_base | Reading memory with overlapping variables: [(0, <None[is_167]|Stack sp-0x11c, 4 B>), (0, <0x406020[is_2]|Stack bp-0x11c, 4 B>)]. Ignoring all but the first one.
+WARNING  | 2023-09-30 19:54:03,559 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:03,568 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:03,580 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:07,012 | angr.analyses.variable_recovery.engine_base | Reading memory with overlapping variables: [(0, <None[is_151]|Stack sp-0xc, 4 B>), (0, <0x406a80[is_22]|Stack bp-0xc, 4 B>)]. Ignoring all but the first one.
+WARNING  | 2023-09-30 19:54:07,994 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_406a80 (0x406a80)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:07,995 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_406a80 (0x406a80)>.
+WARNING  | 2023-09-30 19:54:09,959 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:11,180 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_409ef0 (0x409ef0)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:11,181 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_409ef0 (0x409ef0)>.
+WARNING  | 2023-09-30 19:54:11,760 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:12,019 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:12,022 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:12,045 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:12,579 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:12,796 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:13,651 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_4036c0 (0x4036c0)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:13,652 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_4036c0 (0x4036c0)>.
+WARNING  | 2023-09-30 19:54:17,757 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_406500 (0x406500)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:17,757 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_406500 (0x406500)>.
+WARNING  | 2023-09-30 19:54:18,584 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:18,597 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:18,599 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:18,668 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:18,701 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:18,721 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:18,724 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:18,934 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:18,950 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:18,953 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:25,165 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_402080 (0x402080)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:25,166 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_402080 (0x402080)>.
+WARNING  | 2023-09-30 19:54:25,513 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:25,530 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:26,101 | angr.analyses.variable_recovery.engine_base | Reading memory with overlapping variables: [(0, <None[is_73]|Stack sp-0x10, 4 B>), (0, <0x401000[is_5]|s_10(stack) bp-0x10, 4 B>)]. Ignoring all but the first one.
+WARNING  | 2023-09-30 19:54:26,121 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_408ae0 (0x408ae0)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:26,121 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_408ae0 (0x408ae0)>.
+WARNING  | 2023-09-30 19:54:26,204 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_401980 (0x401980)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:26,204 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_401980 (0x401980)>.
+WARNING  | 2023-09-30 19:54:26,683 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:26,698 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:28,109 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:28,829 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:29,725 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:32,525 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:32,796 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:32,821 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+WARNING  | 2023-09-30 19:54:32,986 | angr.analyses.variable_recovery.engine_base | _reference() is called on expressions without variables associated. Did you call _ensure_variable_existence() first?
+ERROR    | 2023-09-30 19:54:35,935 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+WARNING  | 2023-09-30 19:54:35,936 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported Binop Iop_CasCmpNE32.
+ERROR    | 2023-09-30 19:54:35,938 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:35,963 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:35,964 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:35,967 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:35,968 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:35,970 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:35,971 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:35,976 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:35,976 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:35,986 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:35,990 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:36,020 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+ERROR    | 2023-09-30 19:54:36,024 | angr.analyses.variable_recovery.engine_vex.SimEngineVRVEX | Unsupported statement type CAS.
+WARNING  | 2023-09-30 19:54:36,059 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_4088bc (0x4088bc)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:36,059 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_4088bc (0x4088bc)>.
+WARNING  | 2023-09-30 19:54:36,167 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_40d05c (0x40d05c)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:36,167 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_40d05c (0x40d05c)>.
+WARNING  | 2023-09-30 19:54:36,214 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_40befc (0x40befc)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:36,214 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_40befc (0x40befc)>.
+WARNING  | 2023-09-30 19:54:36,231 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_4085bc (0x4085bc)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:36,231 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_4085bc (0x4085bc)>.
+WARNING  | 2023-09-30 19:54:36,322 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_407389 (0x407389)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:36,323 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_407389 (0x407389)>.
+WARNING  | 2023-09-30 19:54:36,468 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_4072f1 (0x4072f1)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:36,468 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_4072f1 (0x4072f1)>.
+WARNING  | 2023-09-30 19:54:36,575 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_40700e (0x40700e)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:36,575 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_40700e (0x40700e)>.
+WARNING  | 2023-09-30 19:54:36,791 | angr.analyses.calling_convention | _analyze_function(): Cannot find a calling convention for <Function sub_4067fd (0x4067fd)> that fits the given arguments.
+WARNING  | 2023-09-30 19:54:36,792 | angr.analyses.calling_convention | Cannot determine calling convention for <Function sub_4067fd (0x4067fd)>.
+Traceback (most recent call last):
+  File "decompile_angr.py", line 58, in <module>
+    decompile()
+  File "decompile_angr.py", line 24, in decompile
+    p.analyses.CompleteCallingConventions(
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/analysis.py", line 216, in __call__
+    r = w(*args, **kwargs)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/analysis.py", line 201, in wrapper
+    oself.__init__(*args, **kwargs)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/complete_calling_conventions.py", line 99, in __init__
+    self.work()
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/complete_calling_conventions.py", line 165, in work
+    cc, proto, _ = self._analyze_core(func_addr)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/complete_calling_conventions.py", line 305, in _analyze_core
+    _ = self.project.analyses[VariableRecoveryFast].prep(kb=self.kb)(
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/analysis.py", line 201, in wrapper
+    oself.__init__(*args, **kwargs)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/variable_recovery/variable_recovery_fast.py", line 284, in __init__
+    self._analyze()
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/forward_analysis/forward_analysis.py", line 252, in _analyze
+    self._analysis_core_graph()
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/forward_analysis/forward_analysis.py", line 269, in _analysis_core_graph
+    changed, output_state = self._run_on_node(n, job_state)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/variable_recovery/variable_recovery_fast.py", line 434, in _run_on_node
+    self._process_block(state, block)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/variable_recovery/variable_recovery_fast.py", line 551, in _process_block
+    processor.process(state, block=block, fail_fast=self._fail_fast)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/variable_recovery/engine_base.py", line 87, in process
+    self._process(state, None, block=kwargs.pop("block", None))
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/engines/light/engine.py", line 144, in _process
+    self._process_Stmt(whitelist=whitelist)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/variable_recovery/engine_vex.py", line 49, in _process_Stmt
+    scanner._process(None, None, block=self.block)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/engines/light/engine.py", line 144, in _process
+    self._process_Stmt(whitelist=whitelist)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/variable_recovery/irsb_scanner.py", line 41, in _process_Stmt
+    super()._process_Stmt(whitelist=whitelist)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/engines/light/engine.py", line 164, in _process_Stmt
+    self._handle_Stmt(stmt)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/engines/light/engine.py", line 194, in _handle_Stmt
+    getattr(self, handler)(stmt)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/analyses/variable_recovery/irsb_scanner.py", line 81, in _handle_WrTmp
+    super()._handle_WrTmp(stmt)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/engines/light/engine.py", line 200, in _handle_WrTmp
+    data = self._expr(stmt.data)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/engines/light/engine.py", line 234, in _expr
+    return getattr(self, handler)(expr)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/engines/light/engine.py", line 373, in _handle_Binop
+    return getattr(self, handler)(expr)
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/engines/light/engine.py", line 779, in _handle_16HLto32
+    return self._top(expr.result_size(self.tyenv))
+  File "/home/decompiler_user/.local/lib/python3.8/site-packages/angr/engines/light/engine.py", line 46, in _top
+    raise NotImplementedError()
+NotImplementedError

@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/12396543/where-can-i-get-a-standalone-nmake-exe
+http://web.archive.org/web/20120402130733/http://support.microsoft.com/kb/132084
+http://web.archive.org/web/20120402130733/http://download.microsoft.com/download/vc15/patch/1.52/w95/en-us/nmake15.exe
+http://download.microsoft.com/download/vc15/Patch/1.52/W95/EN-US/Nmake15.exe

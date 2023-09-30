@@ -19,6 +19,8 @@ ls -d sha256/*-nmake-* | while read d; do
 done | sort -V -r | while read v d; do echo "- [nmake $v]($d)"; done 
 -->
 
+- [nmake 15-nodos](sha256/0b51a812614c2cd383cd416e098aa0d27f0cb544b8e3df6889ce8e9769e401b2-nmake-15-nodos)
+- [nmake 15](sha256/21ac98110e19b2f0d59efaa1cb4807700bed1f6ebb4b74b56783c3b7300edb7c-nmake-15)
 - [nmake 14.23.28105.4](sha256/23563b29f3b0e8b7a925a655b810f81e0e67d65a2bff197b1ad6c8021b0b8eea-nmake-14.23.28105.4)
 - [nmake 14.22.27905.0](sha256/afe7d921f7abec014217646bf2031b6b1b1cdc58ae6cb56e46eb6cc663443a1f-nmake-14.22.27905.0)
 - [nmake 14.21.27702.2](sha256/c43ac12a2500c9491c6d74b9a892d6e4802a9d191a45903cfb57e240203f0e95-nmake-14.21.27702.2)
