@@ -1,0 +1,4 @@
+microsoft-visualstudio-2019-16.3.29318.209-torrent Microsoft.VisualCpp.Tools.Hostx86.Targetarm64,version=14.23.28105/payload.vsix
+microsoft-visualstudio-2019-16.3.29318.209-torrent Microsoft.VisualCpp.Tools.Hostx86.Targetarm,version=14.23.28105/payload.vsix
+microsoft-visualstudio-2019-16.3.29318.209-torrent Microsoft.VisualCpp.Tools.HostX86.TargetX64,version=14.23.28105/payload.vsix
+microsoft-visualstudio-2019-16.3.29318.209-torrent Microsoft.VisualCpp.Tools.HostX86.TargetX86,version=14.23.28105/payload.vsix

@@ -19,6 +19,7 @@ ls -d sha256/*-nmake-* | while read d; do
 done | sort -V -r | while read v d; do echo "- [nmake $v]($d)"; done 
 -->
 
+- [nmake 14.23.28105.4](sha256/23563b29f3b0e8b7a925a655b810f81e0e67d65a2bff197b1ad6c8021b0b8eea-nmake-14.23.28105.4)
 
 ## nmake sources
 
