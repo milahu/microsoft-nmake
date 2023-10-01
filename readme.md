@@ -1,5 +1,9 @@
 # microsoft nmake
 
+multiple versions of the nmake.exe binary,
+which is part of Microsoft VisualStudio BuildTools,
+including some decompiled nmake.cpp sources
+
 <blockquote>
 
 The Microsoft Program Maintenance Utility (NMAKE.EXE) is a command-line tool included with Visual Studio.
