@@ -1,0 +1,4 @@
+microsoft-visualstudio-2022-17.3-torrent vs2022ent/Microsoft.VC.14.31.17.1.Tools.Hostx86.Targetarm.base,version=14.31.31107/payload.vsix
+microsoft-visualstudio-2022-17.3-torrent vs2022ent/Microsoft.VC.14.31.17.1.Tools.Hostx86.Targetarm64.base,version=14.31.31107/payload.vsix
+microsoft-visualstudio-2022-17.3-torrent vs2022ent/Microsoft.VC.14.31.17.1.Tools.HostX86.TargetX64.base,version=14.31.31107/payload.vsix
+microsoft-visualstudio-2022-17.3-torrent vs2022ent/Microsoft.VC.14.31.17.1.Tools.HostX86.TargetX86.base,version=14.31.31107/payload.vsix
