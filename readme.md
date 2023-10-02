@@ -37,6 +37,7 @@ done | sort -V -r | while read v d; do echo "- [nmake $v]($d)"; done
 
 ## nmake sources
 
+- [microsoft-visualstudio-2022-17.3-torrent](sources/microsoft-visualstudio-2022-17.3-torrent)
 - [microsoft-visualstudio-2019-16.3.29318.209-torrent](sources/microsoft-visualstudio-2019-16.3.29318.209-torrent)
 - [microsoft-visualstudio-2019-16.0.28729.10-torrent](sources/microsoft-visualstudio-2019-16.0.28729.10-torrent)
 - http://web.archive.org/web/20120402130733/http://download.microsoft.com/download/vc15/patch/1.52/w95/en-us/nmake15.exe
