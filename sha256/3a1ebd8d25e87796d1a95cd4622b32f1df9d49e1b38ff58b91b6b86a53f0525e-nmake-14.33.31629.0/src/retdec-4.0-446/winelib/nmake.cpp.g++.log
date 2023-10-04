@@ -1,0 +1,1094 @@
+wineg++ -c -fpermissive -w -I/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt     -o nmake.o nmake.cpp
+nmake.cpp: In function ‘int32_t main::function_403d1e()’:
+nmake.cpp:2418:12: error: ‘__asm_int3’ was not declared in this scope
+ 2418 |     return __asm_int3();
+      |            ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_403fbc(int32_t, int32_t, int32_t, int32_t)’:
+nmake.cpp:3753:33: error: cannot convert ‘main::_FILETIME*’ to ‘LPFILETIME’ {aka ‘_FILETIME*’}
+ 3753 |         GetSystemTimeAsFileTime((struct _FILETIME *)&g172);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 main::_FILETIME*
+In file included from /nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/windows.h:39,
+                 from nmake.cpp:16:
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2322:55: note:   initializing argument 1 of ‘void GetSystemTimeAsFileTime(LPFILETIME)’
+ 2322 | WINBASEAPI VOID        WINAPI GetSystemTimeAsFileTime(LPFILETIME);
+      |                                                       ^~~~~~~~~~
+nmake.cpp:4299:29: error: cannot convert ‘main::_FILETIME*’ to ‘LPFILETIME’ {aka ‘_FILETIME*’}
+ 4299 |     GetSystemTimeAsFileTime((struct _FILETIME *)&g172);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             main::_FILETIME*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2322:55: note:   initializing argument 1 of ‘void GetSystemTimeAsFileTime(LPFILETIME)’
+ 2322 | WINBASEAPI VOID        WINAPI GetSystemTimeAsFileTime(LPFILETIME);
+      |                                                       ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_404df3(int32_t)’:
+nmake.cpp:4489:25: error: break statement not within loop or switch
+ 4489 |                         break;
+      |                         ^~~~~
+nmake.cpp: In function ‘int32_t main::function_405393(int32_t)’:
+nmake.cpp:5124:17: error: break statement not within loop or switch
+ 5124 |                 break;
+      |                 ^~~~~
+nmake.cpp:5159:10: error: conflicting declaration ‘char v10’
+ 5159 |     char v10 = *v1; // 0x4053da
+      |          ^~~
+nmake.cpp:5158:19: note: previous declaration as ‘unsigned char v10’
+ 5158 |     unsigned char v10; // 0x4053da
+      |                   ^~~
+nmake.cpp: In function ‘int32_t main::function_4055e1()’:
+nmake.cpp:5446:61: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+ 5446 |     int16_t * v7 = fgetws((int16_t *)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172); // 0x405615
+      |                                                             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                             |
+      |                                                             main::_IO_FILE*
+In file included from /nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:11,
+                 from nmake.cpp:10:
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:71:47: note:   initializing argument 3 of ‘wchar_t* fgetws(wchar_t*, int, FILE*)’
+   71 | _ACRTIMP wchar_t* __cdecl fgetws(wchar_t*,int,FILE*);
+      |                                               ^~~~~
+nmake.cpp:5501:55: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+ 5501 |         v7 = fgetws((int16_t *)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                       |
+      |                                                       main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:71:47: note:   initializing argument 3 of ‘wchar_t* fgetws(wchar_t*, int, FILE*)’
+   71 | _ACRTIMP wchar_t* __cdecl fgetws(wchar_t*,int,FILE*);
+      |                                               ^~~~~
+nmake.cpp: In function ‘int32_t main::function_405994()’:
+nmake.cpp:5926:50: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+ 5926 |     int16_t * v4 = fgetws((int16_t *)&g97, 1024, (struct _IO_FILE *)stream); // 0x4059df
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:71:47: note:   initializing argument 3 of ‘wchar_t* fgetws(wchar_t*, int, FILE*)’
+   71 | _ACRTIMP wchar_t* __cdecl fgetws(wchar_t*,int,FILE*);
+      |                                               ^~~~~
+nmake.cpp:5975:16: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+ 5975 |     if (fclose((struct _IO_FILE *)&g172) == -1) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                |
+      |                main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:110:32: note:   initializing argument 1 of ‘int fclose(FILE*)’
+  110 | _ACRTIMP int    __cdecl fclose(FILE*);
+      |                                ^~~~~
+nmake.cpp:6017:24: error: ‘__asm_int3’ was not declared in this scope
+ 6017 |                 return __asm_int3();
+      |                        ^~~~~~~~~~
+nmake.cpp:6046:62: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+ 6046 |     int16_t * v22 = fgetws((int16_t *)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172); // 0x405ac7
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                              |
+      |                                                              main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:71:47: note:   initializing argument 3 of ‘wchar_t* fgetws(wchar_t*, int, FILE*)’
+   71 | _ACRTIMP wchar_t* __cdecl fgetws(wchar_t*,int,FILE*);
+      |                                               ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40644f()’:
+nmake.cpp:7724:24: error: ‘__asm_int3’ was not declared in this scope
+ 7724 |                 return __asm_int3();
+      |                        ^~~~~~~~~~
+nmake.cpp:7737:16: error: redeclaration of ‘main::_IO_FILE* stream’
+ 7737 |     _IO_FILE * stream = _wfsopen((int16_t *)&lpPathName, L"rt", 32); // 0x406732
+      |                ^~~~~~
+nmake.cpp:7736:23: note: ‘main::_IO_FILE* stream’ previously declared here
+ 7736 |     struct _IO_FILE * stream; // 0x406732
+      |                       ^~~~~~
+nmake.cpp:7744:39: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+ 7744 |     if (fgetws((int16_t *)&wstr2, 64, stream) == NULL) {
+      |                                       ^~~~~~
+      |                                       |
+      |                                       main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:71:47: note:   initializing argument 3 of ‘wchar_t* fgetws(wchar_t*, int, FILE*)’
+   71 | _ACRTIMP wchar_t* __cdecl fgetws(wchar_t*,int,FILE*);
+      |                                               ^~~~~
+nmake.cpp:7749:16: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+ 7749 |     if (fclose(stream) == -1) {
+      |                ^~~~~~
+      |                |
+      |                main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:110:32: note:   initializing argument 1 of ‘int fclose(FILE*)’
+  110 | _ACRTIMP int    __cdecl fclose(FILE*);
+      |                                ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40756c(int32_t, int32_t, int32_t)’:
+nmake.cpp:9046:42: error: ‘__p__wpgmptr’ was not declared in this scope
+ 9046 |                         int16_t ** v54 = __p__wpgmptr(); // 0x4077b4
+      |                                          ^~~~~~~~~~~~
+nmake.cpp:9309:32: error: ‘__asm_int3’ was not declared in this scope
+ 9309 |                         return __asm_int3();
+      |                                ^~~~~~~~~~
+nmake.cpp:9510:133: error: cannot convert ‘int32_t*’ {aka ‘int*’} to ‘char**’
+ 9510 |                             FormatMessageW((int32_t)&g172, &g172, (int32_t)&g172, (int32_t)&g172, (int16_t *)&g172, (int32_t)&g172, &g172);
+      |                                                                                                                                     ^~~~~
+      |                                                                                                                                     |
+      |                                                                                                                                     int32_t* {aka int*}
+In file included from /nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/windows.h:38:
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2110:85: note:   initializing argument 7 of ‘DWORD FormatMessageW(DWORD, LPCVOID, DWORD, DWORD, LPWSTR, DWORD, char**)’
+ 2110 | WINBASEAPI DWORD       WINAPI FormatMessageW(DWORD,LPCVOID,DWORD,DWORD,LPWSTR,DWORD,__ms_va_list*);
+      |                                                                                     ^
+nmake.cpp: In function ‘int32_t main::function_407ea5(int32_t, uint32_t, int32_t, int32_t)’:
+nmake.cpp:9854:14: error: label ‘lab_0x40811d’ used but not defined
+ 9854 |         goto lab_0x40811d;
+      |              ^~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_408124(int32_t)’:
+nmake.cpp:10112:14: error: label ‘lab_0x40819a’ used but not defined
+10112 |         goto lab_0x40819a;
+      |              ^~~~~~~~~~~~
+nmake.cpp:10114:10: error: label ‘lab_0x40814d’ used but not defined
+10114 |     goto lab_0x40814d;
+      |          ^~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_4081ae()’:
+nmake.cpp:10153:29: error: cannot convert ‘main::_FILETIME*’ to ‘LPFILETIME’ {aka ‘_FILETIME*’}
+10153 |     GetSystemTimeAsFileTime((struct _FILETIME *)&lpSystemTimeAsFileTime);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             main::_FILETIME*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2322:55: note:   initializing argument 1 of ‘void GetSystemTimeAsFileTime(LPFILETIME)’
+ 2322 | WINBASEAPI VOID        WINAPI GetSystemTimeAsFileTime(LPFILETIME);
+      |                                                       ^~~~~~~~~~
+nmake.cpp:10158:40: error: cannot convert ‘main::_FILETIME*’ to ‘const FILETIME*’
+10158 |         SetFileTime(hFile, NULL, NULL, (struct _FILETIME *)&lpSystemTimeAsFileTime);
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                        |
+      |                                        main::_FILETIME*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2696:82: note:   initializing argument 4 of ‘BOOL SetFileTime(HANDLE, const FILETIME*, const FILETIME*, const FILETIME*)’
+ 2696 | WINBASEAPI BOOL        WINAPI SetFileTime(HANDLE,const FILETIME*,const FILETIME*,const FILETIME*);
+      |                                                                                  ^~~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_408256(int32_t)’:
+nmake.cpp:10260:46: error: cannot convert ‘main::_WIN32_FIND_DATAW*’ to ‘LPWIN32_FIND_DATAW’ {aka ‘_WIN32_FIND_DATAW*’}
+10260 |     * v22 = FindFirstFileW((int16_t *)&g172, (struct _WIN32_FIND_DATAW *)&g172); // 0x408334
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                              |
+      |                                              main::_WIN32_FIND_DATAW*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2068:54: note:   initializing argument 2 of ‘void* FindFirstFileW(LPCWSTR, LPWIN32_FIND_DATAW)’
+ 2068 | WINBASEAPI HANDLE      WINAPI FindFirstFileW(LPCWSTR,LPWIN32_FIND_DATAW);
+      |                                                      ^~~~~~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_4083e1()’:
+nmake.cpp:10366:34: error: cannot convert ‘main::_WIN32_FIND_DATAW*’ to ‘LPWIN32_FIND_DATAW’ {aka ‘_WIN32_FIND_DATAW*’}
+10366 |     if (FindNextFileW(hFindFile, (struct _WIN32_FIND_DATAW *)lpFindFileData)) {
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  |
+      |                                  main::_WIN32_FIND_DATAW*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2077:52: note:   initializing argument 2 of ‘BOOL FindNextFileW(HANDLE, LPWIN32_FIND_DATAW)’
+ 2077 | WINBASEAPI BOOL        WINAPI FindNextFileW(HANDLE,LPWIN32_FIND_DATAW);
+      |                                                    ^~~~~~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_408404(int32_t, int32_t)’:
+nmake.cpp:10497:3: error: duplicate label ‘lab_0x40846d’
+10497 |   lab_0x40846d:;
+      |   ^~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_4084f3()’:
+nmake.cpp:10551:65: error: cannot convert ‘main::_WIN32_FIND_DATAW*’ to ‘LPWIN32_FIND_DATAW’ {aka ‘_WIN32_FIND_DATAW*’}
+10551 |     int32_t * hFindFile = FindFirstFileW((int16_t *)lpFileName, (struct _WIN32_FIND_DATAW *)lpFindFileData); // 0x40852e
+      |                                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                 |
+      |                                                                 main::_WIN32_FIND_DATAW*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2068:54: note:   initializing argument 2 of ‘void* FindFirstFileW(LPCWSTR, LPWIN32_FIND_DATAW)’
+ 2068 | WINBASEAPI HANDLE      WINAPI FindFirstFileW(LPCWSTR,LPWIN32_FIND_DATAW);
+      |                                                      ^~~~~~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_408582()’:
+nmake.cpp:10685:39: error: cannot convert ‘main::_FILETIME*’ to ‘LPFILETIME’ {aka ‘_FILETIME*’}
+10685 |         bool v26 = GetFileTime(hFile, (struct _FILETIME *)(v1 + 4), (struct _FILETIME *)(v1 + 12), (struct _FILETIME *)(v1 + 20)); // 0x4086d8
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       main::_FILETIME*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2203:50: note:   initializing argument 2 of ‘BOOL GetFileTime(HANDLE, LPFILETIME, LPFILETIME, LPFILETIME)’
+ 2203 | WINBASEAPI BOOL        WINAPI GetFileTime(HANDLE,LPFILETIME,LPFILETIME,LPFILETIME);
+      |                                                  ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_4086f8()’:
+nmake.cpp:10710:28: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+10710 |         int32_t v8 = getwc((struct _IO_FILE *)&g172); // 0x408708
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                            |
+      |                            main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:10719:37: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+10719 |             ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                     |
+      |                                     main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp: In function ‘int32_t main::function_4088a1()’:
+nmake.cpp:10897:27: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+10897 |                     getwc((struct _IO_FILE *)&g172);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                           |
+      |                           main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:10923:29: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+10923 |     ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp:10931:17: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+10931 |     v18 = getwc((struct _IO_FILE *)&g172); // 0x408993
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:10945:33: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+10945 |             int32_t v21 = getwc((struct _IO_FILE *)&g172); // 0x4089ab
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:10956:29: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+10956 |                 v21 = getwc((struct _IO_FILE *)&g172);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp: In function ‘int32_t main::function_408b74()’:
+nmake.cpp:11198:3: error: duplicate label ‘lab_0x408cef_3’
+11198 |   lab_0x408cef_3:
+      |   ^~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_408cf3(int32_t*)’:
+nmake.cpp:11483:3: error: duplicate label ‘lab_0x408e07’
+11483 |   lab_0x408e07:
+      |   ^~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_408ecf()’:
+nmake.cpp:11608:17: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+11608 |     v13 = getwc((struct _IO_FILE *)&g172); // 0x40908b
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:11678:33: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+11678 |             int32_t v30 = getwc((struct _IO_FILE *)&g172); // 0x4090a9
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:11775:21: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+11775 |         v18 = getwc((struct _IO_FILE *)&g172); // 0x40901a
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                     |
+      |                     main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:11826:41: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+11826 |                             v20 = getwc((struct _IO_FILE *)&g172) & 0xffff;
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp: In function ‘int32_t main::function_409117()’:
+nmake.cpp:11853:50: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+11853 |     if (fgetws((int16_t *)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172) != NULL) {
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:71:47: note:   initializing argument 3 of ‘wchar_t* fgetws(wchar_t*, int, FILE*)’
+   71 | _ACRTIMP wchar_t* __cdecl fgetws(wchar_t*,int,FILE*);
+      |                                               ^~~~~
+nmake.cpp:11915:57: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+11915 |         while (fgetws((int16_t *)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172) != NULL) {
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                         |
+      |                                                         main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:71:47: note:   initializing argument 3 of ‘wchar_t* fgetws(wchar_t*, int, FILE*)’
+   71 | _ACRTIMP wchar_t* __cdecl fgetws(wchar_t*,int,FILE*);
+      |                                               ^~~~~
+nmake.cpp:11971:28: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+11971 |     int32_t is_feof = feof((struct _IO_FILE *)&g172); // 0x4091d5
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                            |
+      |                            main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:111:30: note:   initializing argument 1 of ‘int feof(FILE*)’
+  111 | _ACRTIMP int    __cdecl feof(FILE*);
+      |                              ^~~~~
+nmake.cpp: In function ‘int32_t main::function_409200()’:
+nmake.cpp:12005:16: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12005 |     if (fclose((struct _IO_FILE *)g107) == -1) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+      |                |
+      |                main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:110:32: note:   initializing argument 1 of ‘int fclose(FILE*)’
+  110 | _ACRTIMP int    __cdecl fclose(FILE*);
+      |                                ^~~~~
+nmake.cpp: In function ‘int32_t main::function_4092b2()’:
+nmake.cpp:12038:34: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12038 |             ungetwc(v9 & 0xffff, (struct _IO_FILE *)stream);
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  |
+      |                                  main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp: In function ‘int32_t main::function_409321(int32_t*)’:
+nmake.cpp:12088:13: error: break statement not within loop or switch
+12088 |             break;
+      |             ^~~~~
+nmake.cpp:12096:50: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12096 |     if (fgetws((int16_t *)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172) == NULL) {
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:71:47: note:   initializing argument 3 of ‘wchar_t* fgetws(wchar_t*, int, FILE*)’
+   71 | _ACRTIMP wchar_t* __cdecl fgetws(wchar_t*,int,FILE*);
+      |                                               ^~~~~
+nmake.cpp:12099:18: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12099 |         if (feof((struct _IO_FILE *)&g172) != 0) {
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                  |
+      |                  main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:111:30: note:   initializing argument 1 of ‘int feof(FILE*)’
+  111 | _ACRTIMP int    __cdecl feof(FILE*);
+      |                              ^~~~~
+nmake.cpp:12133:54: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12133 |         if (fgetws((int16_t *)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172) == NULL) {
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                      |
+      |                                                      main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:71:47: note:   initializing argument 3 of ‘wchar_t* fgetws(wchar_t*, int, FILE*)’
+   71 | _ACRTIMP wchar_t* __cdecl fgetws(wchar_t*,int,FILE*);
+      |                                               ^~~~~
+nmake.cpp:12136:22: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12136 |             if (feof((struct _IO_FILE *)&g172) != 0) {
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |
+      |                      main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:111:30: note:   initializing argument 1 of ‘int feof(FILE*)’
+  111 | _ACRTIMP int    __cdecl feof(FILE*);
+      |                              ^~~~~
+nmake.cpp: In function ‘int32_t main::function_4094e3(int32_t)’:
+nmake.cpp:12358:18: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12358 |         if (feof((struct _IO_FILE *)g107) != 0) {
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                  |
+      |                  main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:111:30: note:   initializing argument 1 of ‘int feof(FILE*)’
+  111 | _ACRTIMP int    __cdecl feof(FILE*);
+      |                              ^~~~~
+nmake.cpp:12560:3: error: duplicate label ‘lab_0x409791’
+12560 |   lab_0x409791:;
+      |   ^~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_4098ec(int32_t)’:
+nmake.cpp:12741:12: error: ‘__asm_int3’ was not declared in this scope
+12741 |     return __asm_int3();
+      |            ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_409a5d(int32_t, int32_t, int32_t)’:
+nmake.cpp:12898:163: error: cannot convert ‘bool*’ to ‘LPBOOL’ {aka ‘int*’}
+12898 |                 int32_t v28 = WideCharToMultiByte((int32_t)&g172, (int32_t)&g172, (int16_t *)&g172, (int32_t)&g172, (char *)&g172, (int32_t)&g172, (char *)&g172, (bool *)&g172); // 0x409c18
+      |                                                                                                                                                                   ^~~~~~~~~~~~~
+      |                                                                                                                                                                   |
+      |                                                                                                                                                                   bool*
+In file included from /nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/windows.h:42:
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winnls.h:996:91: note:   initializing argument 8 of ‘INT WideCharToMultiByte(UINT, DWORD, LPCWSTR, INT, LPSTR, INT, LPCSTR, LPBOOL)’
+  996 | WINBASEAPI INT         WINAPI WideCharToMultiByte(UINT,DWORD,LPCWSTR,INT,LPSTR,INT,LPCSTR,LPBOOL);
+      |                                                                                           ^~~~~~
+nmake.cpp:12904:67: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12904 |                     fwrite(&g172, (int32_t)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                                                   ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                   |
+      |                                                                   main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:130:58: note:   initializing argument 4 of ‘size_t fwrite(const void*, size_t, size_t, FILE*)’
+  130 | _ACRTIMP size_t __cdecl fwrite(const void*,size_t,size_t,FILE*);
+      |                                                          ^~~~~
+nmake.cpp:12921:159: error: cannot convert ‘bool*’ to ‘LPBOOL’ {aka ‘int*’}
+12921 |                     v28 = WideCharToMultiByte((int32_t)&g172, (int32_t)&g172, (int16_t *)&g172, (int32_t)&g172, (char *)&g172, (int32_t)&g172, (char *)&g172, (bool *)&g172);
+      |                                                                                                                                                               ^~~~~~~~~~~~~
+      |                                                                                                                                                               |
+      |                                                                                                                                                               bool*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winnls.h:996:91: note:   initializing argument 8 of ‘INT WideCharToMultiByte(UINT, DWORD, LPCWSTR, INT, LPSTR, INT, LPCSTR, LPBOOL)’
+  996 | WINBASEAPI INT         WINAPI WideCharToMultiByte(UINT,DWORD,LPCWSTR,INT,LPSTR,INT,LPCSTR,LPBOOL);
+      |                                                                                           ^~~~~~
+nmake.cpp:12927:71: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12927 |                         fwrite(&g172, (int32_t)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                       |
+      |                                                                       main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:130:58: note:   initializing argument 4 of ‘size_t fwrite(const void*, size_t, size_t, FILE*)’
+  130 | _ACRTIMP size_t __cdecl fwrite(const void*,size_t,size_t,FILE*);
+      |                                                          ^~~~~
+nmake.cpp:12940:59: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12940 |             fwrite(&g172, (int32_t)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                           |
+      |                                                           main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:130:58: note:   initializing argument 4 of ‘size_t fwrite(const void*, size_t, size_t, FILE*)’
+  130 | _ACRTIMP size_t __cdecl fwrite(const void*,size_t,size_t,FILE*);
+      |                                                          ^~~~~
+nmake.cpp:12951:59: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12951 |             fwrite(&g172, (int32_t)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                           |
+      |                                                           main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:130:58: note:   initializing argument 4 of ‘size_t fwrite(const void*, size_t, size_t, FILE*)’
+  130 | _ACRTIMP size_t __cdecl fwrite(const void*,size_t,size_t,FILE*);
+      |                                                          ^~~~~
+nmake.cpp:12955:59: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+12955 |             fwrite(&g172, (int32_t)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                           |
+      |                                                           main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:130:58: note:   initializing argument 4 of ‘size_t fwrite(const void*, size_t, size_t, FILE*)’
+  130 | _ACRTIMP size_t __cdecl fwrite(const void*,size_t,size_t,FILE*);
+      |                                                          ^~~~~
+nmake.cpp:13098:55: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13098 |         fwrite(&g172, (int32_t)&g172, (int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                       |
+      |                                                       main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:130:58: note:   initializing argument 4 of ‘size_t fwrite(const void*, size_t, size_t, FILE*)’
+  130 | _ACRTIMP size_t __cdecl fwrite(const void*,size_t,size_t,FILE*);
+      |                                                          ^~~~~
+nmake.cpp: In function ‘int32_t main::function_409c81(int32_t, int32_t)’:
+nmake.cpp:13301:12: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13301 |     fclose((struct _IO_FILE *)file);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:110:32: note:   initializing argument 1 of ‘int fclose(FILE*)’
+  110 | _ACRTIMP int    __cdecl fclose(FILE*);
+      |                                ^~~~~
+nmake.cpp:13420:17: error: ‘__asm_int3’ was not declared in this scope
+13420 |                 __asm_int3();
+      |                 ^~~~~~~~~~
+nmake.cpp:13424:38: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13424 |                 int32_t v77 = fclose((struct _IO_FILE *)&g172); // 0x40a0c6
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                      |
+      |                                      main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:110:32: note:   initializing argument 1 of ‘int fclose(FILE*)’
+  110 | _ACRTIMP int    __cdecl fclose(FILE*);
+      |                                ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40a127()’:
+nmake.cpp:13489:24: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13489 |             v7 = getwc((struct _IO_FILE *)&g172);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:13505:28: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13505 |                 v7 = getwc((struct _IO_FILE *)&g172);
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                            |
+      |                            main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:13524:25: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13524 |             v10 = getwc((struct _IO_FILE *)&g172);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:13552:42: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13552 |         result = ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40a1ac()’:
+nmake.cpp:13571:28: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13571 |     if (fgetws(&g98, 1023, (struct _IO_FILE *)g107) == NULL) {
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~
+      |                            |
+      |                            main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:71:47: note:   initializing argument 3 of ‘wchar_t* fgetws(wchar_t*, int, FILE*)’
+   71 | _ACRTIMP wchar_t* __cdecl fgetws(wchar_t*,int,FILE*);
+      |                                               ^~~~~
+nmake.cpp:13573:18: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13573 |         if (feof((struct _IO_FILE *)g107) != 0) {
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                  |
+      |                  main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:111:30: note:   initializing argument 1 of ‘int feof(FILE*)’
+  111 | _ACRTIMP int    __cdecl feof(FILE*);
+      |                              ^~~~~
+nmake.cpp:13591:20: error: ‘__asm_int3’ was not declared in this scope
+13591 |             return __asm_int3();
+      |                    ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_40a290(int32_t*)’:
+nmake.cpp:13651:41: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13651 |                 ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp:13672:71: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13672 |                                 int32_t v13 = ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172); // 0x40a457
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                       |
+      |                                                                       main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp:13704:40: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13704 |                 int32_t is_feof = feof((struct _IO_FILE *)&g172); // 0x40a2f3
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                        |
+      |                                        main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:111:30: note:   initializing argument 1 of ‘int feof(FILE*)’
+  111 | _ACRTIMP int    __cdecl feof(FILE*);
+      |                              ^~~~~
+nmake.cpp:13750:36: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13750 |     return ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172) & -256 | v19;
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                    |
+      |                                    main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40a4ad()’:
+nmake.cpp:13844:37: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13844 |         return ungetwc(v3 & 0xffff, (struct _IO_FILE *)g107) & -256 | 17;
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                     |
+      |                                     main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40a552()’:
+nmake.cpp:13870:24: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13870 |             v8 = getwc((struct _IO_FILE *)&g172);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:13898:37: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13898 |                         v12 = getwc((struct _IO_FILE *)&g172);
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                     |
+      |                                     main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:13913:58: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+13913 |                             v6 = ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                          |
+      |                                                          main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40a62b()’:
+nmake.cpp:14019:25: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+14019 |             v10 = getwc((struct _IO_FILE *)&g172);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:14037:25: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+14037 |             v11 = getwc((struct _IO_FILE *)&g172);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp:14057:36: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+14057 |     return ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172) & -0x10000 | 92;
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                    |
+      |                                    main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp:14086:21: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+14086 |         v12 = getwc((struct _IO_FILE *)&g172);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                     |
+      |                     main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:75:33: note:   initializing argument 1 of ‘wint_t getwc(FILE*)’
+   75 | _ACRTIMP wint_t   __cdecl getwc(FILE*);
+      |                                 ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40a6dc(int32_t*)’:
+nmake.cpp:14135:51: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+14135 |                             ungetwc(v16 & 0xffff, (struct _IO_FILE *)g107);
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                   |
+      |                                                   main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp:14641:41: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+14641 |                 ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp:14742:10: error: conflicting declaration ‘char v195’
+14742 |     char v195 = *(char *)(15 * (v74 / 256 & 255) + 0x4012c0 + (v77 & 255)); // 0x40ab1e
+      |          ^~~~
+nmake.cpp:14741:19: note: previous declaration as ‘unsigned char v195’
+14741 |     unsigned char v195; // 0x40ab1e
+      |                   ^~~~
+nmake.cpp:14851:33: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+14851 |         ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp:15169:45: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+15169 |                     ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                             |
+      |                                             main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp:15194:29: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+15194 |     ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40ad10()’:
+nmake.cpp:15351:29: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+15351 |     ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40afb3()’:
+nmake.cpp:15987:21: error: break statement not within loop or switch
+15987 |                     break;
+      |                     ^~~~~
+nmake.cpp:16163:29: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+16163 |     ungetwc((int32_t)&g172, (struct _IO_FILE *)&g172);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:81:42: note:   initializing argument 2 of ‘wint_t ungetwc(wint_t, FILE*)’
+   81 | _ACRTIMP wint_t   __cdecl ungetwc(wint_t,FILE*);
+      |                                          ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40b5c8()’:
+nmake.cpp:16300:5: error: ‘__asm_rep_stosd_memset’ was not declared in this scope
+16300 |     __asm_rep_stosd_memset((char *)&g121, 0, 256);
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_40b652()’:
+nmake.cpp:16414:41: error: cannot convert ‘HMODULE’ {aka ‘HINSTANCE__*’} to ‘int32_t*’ {aka ‘int*’} in initialization
+16414 |         int32_t * v23 = GetModuleHandleW((int16_t *)&g172); // 0x40b7cd
+      |                         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         HMODULE {aka HINSTANCE__*}
+nmake.cpp:16422:44: error: cannot convert ‘int32_t*’ {aka ‘int*’} to ‘HMODULE’ {aka ‘HINSTANCE__*’}
+16422 |             func = (int32_t)GetProcAddress(&g172, (char *)&g172);
+      |                                            ^~~~~
+      |                                            |
+      |                                            int32_t* {aka int*}
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2269:46: note:   initializing argument 1 of ‘INT_PTR (__attribute__((ms_abi)) * GetProcAddress(HMODULE, LPCSTR))()’
+ 2269 | WINBASEAPI FARPROC     WINAPI GetProcAddress(HMODULE,LPCSTR);
+      |                                              ^~~~~~~
+nmake.cpp:16481:46: error: cannot convert ‘main::_WIN32_FIND_DATAW*’ to ‘LPWIN32_FIND_DATAW’ {aka ‘_WIN32_FIND_DATAW*’}
+16481 |     * v35 = FindFirstFileW((int16_t *)&g172, (struct _WIN32_FIND_DATAW *)&g172); // 0x40ba1c
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                              |
+      |                                              main::_WIN32_FIND_DATAW*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2068:54: note:   initializing argument 2 of ‘void* FindFirstFileW(LPCWSTR, LPWIN32_FIND_DATAW)’
+ 2068 | WINBASEAPI HANDLE      WINAPI FindFirstFileW(LPCWSTR,LPWIN32_FIND_DATAW);
+      |                                                      ^~~~~~~~~~~~~~~~~~
+nmake.cpp:16502:31: error: cannot convert ‘main::_WIN32_FIND_DATAW*’ to ‘LPWIN32_FIND_DATAW’ {aka ‘_WIN32_FIND_DATAW*’}
+16502 |     if (!FindNextFileW(&g172, (struct _WIN32_FIND_DATAW *)&g172)) {
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               main::_WIN32_FIND_DATAW*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2077:52: note:   initializing argument 2 of ‘BOOL FindNextFileW(HANDLE, LPWIN32_FIND_DATAW)’
+ 2077 | WINBASEAPI BOOL        WINAPI FindNextFileW(HANDLE,LPWIN32_FIND_DATAW);
+      |                                                    ^~~~~~~~~~~~~~~~~~
+nmake.cpp:16595:28: error: ‘__asm_int3’ was not declared in this scope
+16595 |                     return __asm_int3();
+      |                            ^~~~~~~~~~
+nmake.cpp:16628:59: error: cannot convert ‘HMODULE’ {aka ‘HINSTANCE__*’} to ‘int32_t*’ {aka ‘int*’} in initialization
+16628 |                             int32_t * v72 = LoadLibraryExW((int16_t *)&g172, &g172, (int32_t)&g172); // 0x40bba7
+      |                                             ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                           |
+      |                                                           HMODULE {aka HINSTANCE__*}
+nmake.cpp:16652:41: error: cannot convert ‘main::_WIN32_FIND_DATAW*’ to ‘LPWIN32_FIND_DATAW’ {aka ‘_WIN32_FIND_DATAW*’}
+16652 |         bool v76 = FindNextFileW(&g172, (struct _WIN32_FIND_DATAW *)&g172); // 0x40bbb9
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         main::_WIN32_FIND_DATAW*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2077:52: note:   initializing argument 2 of ‘BOOL FindNextFileW(HANDLE, LPWIN32_FIND_DATAW)’
+ 2077 | WINBASEAPI BOOL        WINAPI FindNextFileW(HANDLE,LPWIN32_FIND_DATAW);
+      |                                                    ^~~~~~~~~~~~~~~~~~
+nmake.cpp:16703:45: error: cannot convert ‘HMODULE’ {aka ‘HINSTANCE__*’} to ‘int32_t*’ {aka ‘int*’} in initialization
+16703 |             int32_t * v83 = GetModuleHandleW((int16_t *)&g172); // 0x40b83c
+      |                             ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+      |                                             |
+      |                                             HMODULE {aka HINSTANCE__*}
+nmake.cpp:16711:49: error: cannot convert ‘int32_t*’ {aka ‘int*’} to ‘HMODULE’ {aka ‘HINSTANCE__*’}
+16711 |                 func2 = (int32_t)GetProcAddress(&g172, (char *)&g172);
+      |                                                 ^~~~~
+      |                                                 |
+      |                                                 int32_t* {aka int*}
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2269:46: note:   initializing argument 1 of ‘INT_PTR (__attribute__((ms_abi)) * GetProcAddress(HMODULE, LPCSTR))()’
+ 2269 | WINBASEAPI FARPROC     WINAPI GetProcAddress(HMODULE,LPCSTR);
+      |                                              ^~~~~~~
+nmake.cpp: In function ‘int32_t main::function_40bc3e(int32_t*, int32_t, int32_t*)’:
+nmake.cpp:16913:34: error: cannot convert ‘HMODULE’ {aka ‘HINSTANCE__*’} to ‘int32_t*’ {aka ‘int*’} in initialization
+16913 |     int32_t * v5 = LoadLibraryExW((int16_t *)&lpLibFileName, NULL, dwFlags); // 0x40bd2f
+      |                    ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  |
+      |                                  HMODULE {aka HINSTANCE__*}
+nmake.cpp: In function ‘int32_t main::function_40bdb0(int32_t)’:
+nmake.cpp:16966:5: error: ‘__asm_rep_movsd_memcpy’ was not declared in this scope
+16966 |     __asm_rep_movsd_memcpy((char *)v1, (char *)L"\nNMAKE : fatal error U1038: Internal error\n", 20);
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_40be1b()’:
+nmake.cpp:17103:9: error: ‘__writeNullptrWord’ was not declared in this scope
+17103 |         __writeNullptrWord(0);
+      |         ^~~~~~~~~~~~~~~~~~
+nmake.cpp:17112:26: error: ‘__p__wpgmptr’ was not declared in this scope
+17112 |         int16_t * v31 = *__p__wpgmptr(); // 0x40c000
+      |                          ^~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_40c0d0()’:
+nmake.cpp:17234:38: error: cannot convert ‘main::_MEMORY_BASIC_INFORMATION*’ to ‘PMEMORY_BASIC_INFORMATION’ {aka ‘_MEMORY_BASIC_INFORMATION*’}
+17234 |     int32_t v9 = VirtualQuery(&g172, (struct _MEMORY_BASIC_INFORMATION *)&g172, (int32_t)&g172); // 0x40c101
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                      |
+      |                                      main::_MEMORY_BASIC_INFORMATION*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2802:52: note:   initializing argument 2 of ‘SIZE_T VirtualQuery(LPCVOID, PMEMORY_BASIC_INFORMATION, SIZE_T)’
+ 2802 | WINBASEAPI SIZE_T      WINAPI VirtualQuery(LPCVOID,PMEMORY_BASIC_INFORMATION,SIZE_T);
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+nmake.cpp:17244:42: error: cannot convert ‘int32_t*’ {aka ‘int*’} to ‘HMODULE’ {aka ‘HINSTANCE__*’}
+17244 |         int32_t v14 = GetModuleFileNameW(&g172, (int16_t *)&g172, (int32_t)&g172); // 0x40c11d
+      |                                          ^~~~~
+      |                                          |
+      |                                          int32_t* {aka int*}
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2223:50: note:   initializing argument 1 of ‘DWORD GetModuleFileNameW(HMODULE, LPWSTR, DWORD)’
+ 2223 | WINBASEAPI DWORD       WINAPI GetModuleFileNameW(HMODULE,LPWSTR,DWORD);
+      |                                                  ^~~~~~~
+nmake.cpp:17311:5: error: ‘__writefsdword’ was not declared in this scope
+17311 |     __writefsdword(0, *(int32_t *)(v1 - 16));
+      |     ^~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_40c388()’:
+nmake.cpp:17518:24: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+17518 |             if (fclose((struct _IO_FILE *)g107) == -1) {
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:110:32: note:   initializing argument 1 of ‘int fclose(FILE*)’
+  110 | _ACRTIMP int    __cdecl fclose(FILE*);
+      |                                ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40c58e()’:
+nmake.cpp:17617:16: error: redeclaration of ‘main::_IO_FILE* v13’
+17617 |     _IO_FILE * v13 = _wfsopen((int16_t *)&g172, (int16_t *)&g172, (int32_t)&g172); // 0x40c5ea
+      |                ^~~
+nmake.cpp:17616:23: note: ‘main::_IO_FILE* v13’ previously declared here
+17616 |     struct _IO_FILE * v13; // 0x40c5ea
+      |                       ^~~
+nmake.cpp:17657:25: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+17657 |                 setvbuf((struct _IO_FILE *)&g172, (char *)&g172, (int32_t)&g172, (int32_t)&g172);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:142:33: note:   initializing argument 1 of ‘int setvbuf(FILE*, char*, int, size_t)’
+  142 | _ACRTIMP int    __cdecl setvbuf(FILE*,char*,int,size_t);
+      |                                 ^~~~~
+nmake.cpp:17676:20: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+17676 |         if (fclose((struct _IO_FILE *)&g172) == -1) {
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                    |
+      |                    main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:110:32: note:   initializing argument 1 of ‘int fclose(FILE*)’
+  110 | _ACRTIMP int    __cdecl fclose(FILE*);
+      |                                ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40cef8()’:
+nmake.cpp:18500:26: error: ‘__p__wpgmptr’ was not declared in this scope
+18500 |         int16_t ** v10 = __p__wpgmptr(); // 0x40cf1f
+      |                          ^~~~~~~~~~~~
+nmake.cpp:18533:29: error: cannot convert ‘int32_t*’ {aka ‘int*’} to ‘HMODULE’ {aka ‘HINSTANCE__*’}
+18533 |     * v19 = FindResourceExW(&g172, (int16_t *)&g172, (int16_t *)&g172, (int16_t)&g172); // 0x40cfd1
+      |                             ^~~~~
+      |                             |
+      |                             int32_t* {aka int*}
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2085:47: note:   initializing argument 1 of ‘HRSRC__* FindResourceExW(HMODULE, LPCWSTR, LPCWSTR, WORD)’
+ 2085 | WINBASEAPI HRSRC       WINAPI FindResourceExW(HMODULE,LPCWSTR,LPCWSTR,WORD);
+      |                                               ^~~~~~~
+nmake.cpp:18541:22: error: cannot convert ‘int32_t*’ {aka ‘int*’} to ‘HMODULE’ {aka ‘HINSTANCE__*’}
+18541 |     if (LoadResource(&g172, &g172) == NULL) {
+      |                      ^~~~~
+      |                      |
+      |                      int32_t* {aka int*}
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2472:44: note:   initializing argument 1 of ‘void* LoadResource(HMODULE, HRSRC)’
+ 2472 | WINBASEAPI HGLOBAL     WINAPI LoadResource(HMODULE,HRSRC);
+      |                                            ^~~~~~~
+nmake.cpp: In function ‘int32_t main::function_40d0b3()’:
+nmake.cpp:18627:23: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+18627 |         return fflush((struct _IO_FILE *)__acrt_iob_func(2));
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:113:32: note:   initializing argument 1 of ‘int fflush(FILE*)’
+  113 | _ACRTIMP int    __cdecl fflush(FILE*);
+      |                                ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40d0e0()’:
+nmake.cpp:18645:25: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+18645 |         v1 = fputwc(10, (struct _IO_FILE *)__acrt_iob_func(2));
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:72:41: note:   initializing argument 2 of ‘wint_t fputwc(wint_t, FILE*)’
+   72 | _ACRTIMP wint_t   __cdecl fputwc(wint_t,FILE*);
+      |                                         ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40d194()’:
+nmake.cpp:18688:23: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+18688 |         return fflush((struct _IO_FILE *)__acrt_iob_func(1));
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/stdio.h:113:32: note:   initializing argument 1 of ‘int fflush(FILE*)’
+  113 | _ACRTIMP int    __cdecl fflush(FILE*);
+      |                                ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40d1c1()’:
+nmake.cpp:18706:25: error: cannot convert ‘main::_IO_FILE*’ to ‘FILE*’ {aka ‘_iobuf*’}
+18706 |         v1 = fputwc(10, (struct _IO_FILE *)__acrt_iob_func(1));
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         main::_IO_FILE*
+/nix/store/q6l92a4rgqr8sfccssh8nzc6amkdnzdv-wine-8.10/include/wine/msvcrt/corecrt_wstdio.h:72:41: note:   initializing argument 2 of ‘wint_t fputwc(wint_t, FILE*)’
+   72 | _ACRTIMP wint_t   __cdecl fputwc(wint_t,FILE*);
+      |                                         ^~~~~
+nmake.cpp: In function ‘int32_t main::function_40d23d()’:
+nmake.cpp:18749:9: error: ‘__asm_int3’ was not declared in this scope
+18749 |         __asm_int3();
+      |         ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_40d450(int32_t, int32_t)’:
+nmake.cpp:18968:34: error: cannot convert ‘main::_FILETIME*’ to ‘const FILETIME*’
+18968 |     if (!FileTimeToLocalFileTime((struct _FILETIME *)&lpFileTime, (struct _FILETIME *)&lpLocalFileTime) || !FileTimeToSystemTime((struct _FILETIME *)&lpLocalFileTime, (struct _SYSTEMTIME *)&lpSystemTime)) {
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  |
+      |                                  main::_FILETIME*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2054:55: note:   initializing argument 1 of ‘BOOL FileTimeToLocalFileTime(const FILETIME*, LPFILETIME)’
+ 2054 | WINBASEAPI BOOL        WINAPI FileTimeToLocalFileTime(const FILETIME*,LPFILETIME);
+      |                                                       ^~~~~~~~~~~~~~~
+nmake.cpp:18968:130: error: cannot convert ‘main::_FILETIME*’ to ‘const FILETIME*’
+18968 |     if (!FileTimeToLocalFileTime((struct _FILETIME *)&lpFileTime, (struct _FILETIME *)&lpLocalFileTime) || !FileTimeToSystemTime((struct _FILETIME *)&lpLocalFileTime, (struct _SYSTEMTIME *)&lpSystemTime)) {
+      |                                                                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                  |
+      |                                                                                                                                  main::_FILETIME*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2055:52: note:   initializing argument 1 of ‘BOOL FileTimeToSystemTime(const FILETIME*, LPSYSTEMTIME)’
+ 2055 | WINBASEAPI BOOL        WINAPI FileTimeToSystemTime(const FILETIME*,LPSYSTEMTIME);
+      |                                                    ^~~~~~~~~~~~~~~
+nmake.cpp:18974:42: error: cannot convert ‘main::_SYSTEMTIME*’ to ‘const SYSTEMTIME*’
+18974 |     int32_t v1 = GetDateFormatW(1024, 0, (struct _SYSTEMTIME *)&lpSystemTime, L"ddd, MMM dd yyyy", (int16_t *)&lpDateStr, 20); // 0x40d4bd
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          main::_SYSTEMTIME*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winnls.h:920:57: note:   initializing argument 3 of ‘INT GetDateFormatW(LCID, DWORD, const SYSTEMTIME*, LPCWSTR, LPWSTR, INT)’
+  920 | WINBASEAPI INT         WINAPI GetDateFormatW(LCID,DWORD,const SYSTEMTIME*,LPCWSTR,LPWSTR,INT);
+      |                                                         ^~~~~~~~~~~~~~~~~
+nmake.cpp:18981:42: error: cannot convert ‘main::_SYSTEMTIME*’ to ‘const SYSTEMTIME*’
+18981 |     int32_t v2 = GetTimeFormatW(1024, 0, (struct _SYSTEMTIME *)&lpSystemTime, L"HH:mm:ss", (int16_t *)&lpTimeStr, 12); // 0x40d4d9
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          main::_SYSTEMTIME*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winnls.h:955:57: note:   initializing argument 3 of ‘INT GetTimeFormatW(LCID, DWORD, const SYSTEMTIME*, LPCWSTR, LPWSTR, INT)’
+  955 | WINBASEAPI INT         WINAPI GetTimeFormatW(LCID,DWORD,const SYSTEMTIME*,LPCWSTR,LPWSTR,INT);
+      |                                                         ^~~~~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_40d851()’:
+nmake.cpp:20109:14: error: label ‘lab_0x40d956’ used but not defined
+20109 |         goto lab_0x40d956;
+      |              ^~~~~~~~~~~~
+nmake.cpp:20111:10: error: label ‘lab_0x40d8c3’ used but not defined
+20111 |     goto lab_0x40d8c3;
+      |          ^~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_40efd4()’:
+nmake.cpp:22711:22: error: label ‘lab_0x40effb_3’ used but not defined
+22711 |                 goto lab_0x40effb_3;
+      |                      ^~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_40f012(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)’:
+nmake.cpp:23334:10: error: conflicting declaration ‘char v114’
+23334 |     char v114 = *(char *)(v31 + 11 + v27); // 0x40f2ed
+      |          ^~~~
+nmake.cpp:23333:19: note: previous declaration as ‘unsigned char v114’
+23333 |     unsigned char v114; // 0x40f2ed
+      |                   ^~~~
+nmake.cpp: In function ‘int32_t main::function_411a34(int32_t)’:
+nmake.cpp:27062:13: error: break statement not within loop or switch
+27062 |             break;
+      |             ^~~~~
+nmake.cpp: In function ‘int32_t main::function_411d29(int32_t*, uint32_t, uint32_t)’:
+nmake.cpp:27359:16: error: ‘__asm_int3’ was not declared in this scope
+27359 |         return __asm_int3();
+      |                ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_411e40(int32_t, int16_t*)’:
+nmake.cpp:27473:17: error: break statement not within loop or switch
+27473 |                 break;
+      |                 ^~~~~
+nmake.cpp: In function ‘int32_t main::function_411fa4()’:
+nmake.cpp:27607:5: error: ‘__asm_int3’ was not declared in this scope
+27607 |     __asm_int3();
+      |     ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_4120cf(int32_t, uint32_t)’:
+nmake.cpp:27720:16: error: ‘__asm_int3’ was not declared in this scope
+27720 |         return __asm_int3();
+      |                ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_41220e()’:
+nmake.cpp:27804:9: error: ‘__asm_int3’ was not declared in this scope
+27804 |         __asm_int3();
+      |         ^~~~~~~~~~
+nmake.cpp:27809:5: error: ‘__asm_fnclex’ was not declared in this scope
+27809 |     __asm_fnclex();
+      |     ^~~~~~~~~~~~
+nmake.cpp:27815:9: error: ‘__asm_int3’ was not declared in this scope
+27815 |         __asm_int3();
+      |         ^~~~~~~~~~
+nmake.cpp:27843:5: error: ‘__asm_int3’ was not declared in this scope
+27843 |     __asm_int3();
+      |     ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_4122d3(int32_t, int32_t)’:
+nmake.cpp:27888:13: error: ‘__writefsdword’ was not declared in this scope
+27888 |             __writefsdword(0, *(int32_t *)(status - 16));
+      |             ^~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_41247b(int32_t*)’:
+nmake.cpp:27961:30: error: cannot convert ‘main::_EXCEPTION_POINTERS*’ to ‘PEXCEPTION_POINTERS’ {aka ‘_EXCEPTION_POINTERS*’}
+27961 |     UnhandledExceptionFilter((struct _EXCEPTION_POINTERS *)ExceptionInfo);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                              |
+      |                              main::_EXCEPTION_POINTERS*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2772:56: note:   initializing argument 1 of ‘LONG UnhandledExceptionFilter(PEXCEPTION_POINTERS)’
+ 2772 | WINBASEAPI LONG        WINAPI UnhandledExceptionFilter(PEXCEPTION_POINTERS);
+      |                                                        ^~~~~~~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_4124a3(int32_t)’:
+nmake.cpp:27971:9: error: ‘__asm_int’ was not declared in this scope
+27971 |         __asm_int(41);
+      |         ^~~~~~~~~
+nmake.cpp:27977:15: error: ‘llvm_ctpop_i8’ was not declared in this scope
+27977 |     char v5 = llvm_ctpop_i8((char)v1); // 0x4124b4
+      |               ^~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_4125a9(int32_t, int32_t)’:
+nmake.cpp:28012:9: error: ‘__asm_int’ was not declared in this scope
+28012 |         __asm_int(41);
+      |         ^~~~~~~~~
+nmake.cpp:28015:15: error: ‘llvm_ctpop_i8’ was not declared in this scope
+28015 |     char v4 = llvm_ctpop_i8((char)v2); // 0x4125ba
+      |               ^~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_4126ca(int32_t, uint32_t)’:
+nmake.cpp:28064:13: error: break statement not within loop or switch
+28064 |             break;
+      |             ^~~~~
+nmake.cpp: In function ‘int32_t main::function_41270e()’:
+nmake.cpp:28095:31: error: ‘__readfsdword’ was not declared in this scope
+28095 |     int32_t v1 = *(int32_t *)(__readfsdword(24) + 4); // 0x412723
+      |                               ^~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_412779(int32_t)’:
+nmake.cpp:28143:16: error: ‘__asm_int3’ was not declared in this scope
+28143 |         return __asm_int3();
+      |                ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_412800(int32_t, int32_t)’:
+nmake.cpp:28199:25: error: ‘__writefsdword’ was not declared in this scope
+28199 |                         __writefsdword(0, *(int32_t *)(v1 - 16));
+      |                         ^~~~~~~~~~~~~~
+nmake.cpp:28209:5: error: ‘__writefsdword’ was not declared in this scope
+28209 |     __writefsdword(0, *(int32_t *)(v1 - 16));
+      |     ^~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_41291b()’:
+nmake.cpp:28271:29: error: cannot convert ‘main::_FILETIME*’ to ‘LPFILETIME’ {aka ‘_FILETIME*’}
+28271 |     GetSystemTimeAsFileTime((struct _FILETIME *)&lpSystemTimeAsFileTime);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             main::_FILETIME*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2322:55: note:   initializing argument 1 of ‘void GetSystemTimeAsFileTime(LPFILETIME)’
+ 2322 | WINBASEAPI VOID        WINAPI GetSystemTimeAsFileTime(LPFILETIME);
+      |                                                       ^~~~~~~~~~
+nmake.cpp:28275:29: error: cannot convert ‘main::_LARGE_INTEGER*’ to ‘LARGE_INTEGER*’
+28275 |     QueryPerformanceCounter((struct _LARGE_INTEGER *)&lpPerformanceCount);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             main::_LARGE_INTEGER*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2606:55: note:   initializing argument 1 of ‘BOOL QueryPerformanceCounter(LARGE_INTEGER*)’
+ 2606 | WINBASEAPI BOOL        WINAPI QueryPerformanceCounter(LARGE_INTEGER*);
+      |                                                       ^~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_4129cf()’:
+nmake.cpp:28349:12: error: ‘__asm_int3’ was not declared in this scope
+28349 |     return __asm_int3();
+      |            ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_412a25(int32_t, int32_t)’:
+nmake.cpp:28388:9: error: ‘__asm_int’ was not declared in this scope
+28388 |         __asm_int(41);
+      |         ^~~~~~~~~
+nmake.cpp:28401:43: error: cannot convert ‘main::_EXCEPTION_POINTERS*’ to ‘PEXCEPTION_POINTERS’ {aka ‘_EXCEPTION_POINTERS*’}
+28401 |     int32_t v3 = UnhandledExceptionFilter((struct _EXCEPTION_POINTERS *)&ExceptionInfo); // 0x412b27
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           main::_EXCEPTION_POINTERS*
+/nix/store/f74mpffvxh25kmjj6fa26yc9vbvrkmyf-wine64-8.0.1/include/wine/windows/winbase.h:2772:56: note:   initializing argument 1 of ‘LONG UnhandledExceptionFilter(PEXCEPTION_POINTERS)’
+ 2772 | WINBASEAPI LONG        WINAPI UnhandledExceptionFilter(PEXCEPTION_POINTERS);
+      |                                                        ^~~~~~~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_412b45()’:
+nmake.cpp:28419:36: error: cannot convert ‘HMODULE’ {aka ‘HINSTANCE__*’} to ‘int32_t*’ {aka ‘int*’} in initialization
+28419 |     int32_t * v1 = GetModuleHandleW(NULL); // 0x412b47
+      |                    ~~~~~~~~~~~~~~~~^~~~~~
+      |                                    |
+      |                                    HMODULE {aka HINSTANCE__*}
+nmake.cpp: In function ‘int32_t main::function_412b93(int32_t)’:
+nmake.cpp:28466:20: error: ‘__asm_int3’ was not declared in this scope
+28466 |             return __asm_int3();
+      |                    ^~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_412c50(int32_t, int32_t, int32_t)’:
+nmake.cpp:28497:18: error: ‘__readfsdword’ was not declared in this scope
+28497 |     int32_t v1 = __readfsdword(0); // bp-8, 0x412c55
+      |                  ^~~~~~~~~~~~~
+nmake.cpp:28503:5: error: ‘__writefsdword’ was not declared in this scope
+28503 |     __writefsdword(0, result);
+      |     ^~~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_412c95()’:
+nmake.cpp:28519:10: error: ‘__asm_cpuid’ was not declared in this scope
+28519 |     v1 = __asm_cpuid(0);
+      |          ^~~~~~~~~~~
+nmake.cpp:28520:10: error: ‘__asm_cpuid_1’ was not declared in this scope
+28520 |     v2 = __asm_cpuid_1(1);
+      |          ^~~~~~~~~~~~~
+nmake.cpp:28558:14: error: ‘__asm_cpuid_2’ was not declared in this scope
+28558 |         if ((__asm_cpuid_2(7).e1 & 512) != 0) {
+      |              ^~~~~~~~~~~~~
+nmake.cpp:28578:9: error: ‘__asm_xgetbv’ was not declared in this scope
+28578 |         __asm_xgetbv(0);
+      |         ^~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_412f3c(int32_t)’:
+nmake.cpp:28789:5: error: ‘__asm_stmxcsr’ was not declared in this scope
+28789 |     __asm_stmxcsr(v1);
+      |     ^~~~~~~~~~~~~
+nmake.cpp: In function ‘int32_t main::function_412fc0(int32_t, int32_t, int32_t)’:
+nmake.cpp:28826:18: error: ‘__readfsdword’ was not declared in this scope
+28826 |     int32_t v1 = __readfsdword(0); // bp-8, 0x412fc5
+      |                  ^~~~~~~~~~~~~
+nmake.cpp:28832:5: error: ‘__writefsdword’ was not declared in this scope
+28832 |     __writefsdword(0, result);
+      |     ^~~~~~~~~~~~~~
+winegcc: /nix/store/8phn3d072kcfvwvf6p5ys8pk8yxh236x-gcc-wrapper-12.3.0/bin/g++ failed
+make: *** [Makefile:87: nmake.o] Error 2
